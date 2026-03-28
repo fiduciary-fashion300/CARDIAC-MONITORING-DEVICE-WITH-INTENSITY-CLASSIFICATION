@@ -1,122 +1,146 @@
 # 🫀 Cardiac Monitoring Device with Intensity Classification
 
-Um aplicativo mobile cross-platform desenvolvido em **Dart (Flutter)** para monitoramento cardíaco em tempo real com classificação automática de intensidade dos batimentos.
+A comprehensive mobile application developed in **Dart (Flutter)** for real-time cardiac monitoring with automatic heart rate intensity classification.
 
-## 📋 Sobre o Projeto
+## 📋 About the Project
 
-Este é um **sistema de monitoramento cardíaco** que captura, analisa e classifica a intensidade dos batimentos cardíacos. Desenvolvido como uma solução completa que integra interface mobile intuitiva com processamento de dados em baixo nível.
+This is a **cardiac monitoring system** that captures, analyzes, and classifies the intensity of heart rate variations. Developed as a complete solution integrating an intuitive mobile interface with low-level data processing.
 
-### 📦 Componentes do Projeto
+### 📦 Project Components
 
-Este repositório é parte de um projeto maior e contém:
+This repository is part of a larger project and contains:
 
-| Componente | Status | Localização |
+| Component | Status | Location |
 |---|---|---|
-| 📱 **Aplicativo Mobile (Flutter)** | ✅ Completo | Este repositório |
-| 🔌 **Hardware/Eletrônica** | 🔄 Em Desenvolvimento | Repositório separado |
-| 📊 **Dashboard Web** | 🔄 Planejado | Futuro |
-| 🗄️ **Backend/API** | 🔄 Planejado | Futuro |
+| 📱 **Mobile App (Flutter)** | ✅ Complete | This repository |
+| 🔌 **Hardware/Electronics** | 🔄 In Development | Separate repository |
+| 📊 **Web Dashboard** | 🔄 Planned | Future |
+| 🗄️ **Backend/API** | 🔄 Planned | Future |
 
-### 🤖 Desenvolvido com Vibe Coding
-Este projeto foi desenvolvido utilizando **Vibe Coding** - uma abordagem onde a maior parte do código foi gerado com assistência de IA, resultando em código bem estruturado, eficiente e mantível.
+### 🤖 Developed with Vibe Coding
 
-## 🎯 Objetivo
+This project was developed using **Vibe Coding** - an approach where most of the code was generated with AI assistance, resulting in well-structured, efficient, and maintainable code.
 
-Fornecer uma solução que:
-- ✅ Monitore batimentos cardíacos em tempo real
-- ✅ Classifique automaticamente a intensidade dos batimentos
-- ✅ Ofereça interface intuitiva e responsiva
-- ✅ Funcione em múltiplas plataformas (Android, iOS)
-- ✅ Se integre com dispositivos de captura de dados cardíacos
+## 🎯 Objectives
 
-## 🛠️ Tecnologias
+Provide a solution that:
+- ✅ Monitors heart rate in real-time
+- ✅ Automatically classifies heart rate intensity
+- ✅ Offers intuitive and responsive interface
+- ✅ Works on multiple platforms (Android, iOS)
+- ✅ Integrates with cardiac data capture devices
 
-| Tecnologia | Porcentagem | Função |
+## 🛠️ Technologies
+
+| Technology | Percentage | Function |
 |---|---|---|
-| **Dart (Flutter)** | 53.4% | Interface mobile cross-platform |
-| **C++** | 23.3% | Processamento de dados e lógica intensiva |
+| **Dart (Flutter)** | 53.4% | Cross-platform mobile interface |
+| **C++** | 23.3% | Data processing and intensive logic |
 | **CMake** | 18.6% | Build system |
-| **Swift** | 2.2% | Integração iOS nativa |
-| **C** | 1.3% | Código embarcado |
-| **HTML** | 1.1% | Documentação web |
+| **Swift** | 2.2% | iOS native integration |
+| **C** | 1.3% | Embedded code |
+| **HTML** | 1.1% | Web documentation |
 
-## 📱 Plataformas Suportadas
+## 📱 Supported Platforms
 
 - ✅ Android
 - ✅ iOS
 
-## 🚀 Como Usar
+## 🚀 Getting Started
 
-### Pré-requisitos
-- Flutter SDK (versão 3.0+)
+### Prerequisites
+
+- Flutter SDK (version 3.0+)
 - Dart SDK
-- Android Studio ou Xcode (para desenvolvimento nativo)
+- Android Studio or Xcode (for native development)
 - Git
 
-### Instalação
-1. Clone o repositório:
+### Installation
+
+1. Clone the repository:
+
 ```bash
 git clone https://github.com/gabrielkscruz-eng/CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION.git
 cd CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION
+```
 
-2.Instale as dependências:
-bash
+2. Install dependencies:
+
+```bash
 flutter pub get
-Execute a aplicação:
-bash
-flutter run
-Compilação para Produção
-Android:
+```
 
-bash
-flutter build apk
-iOS:
+3. Run the application:
 
-bash
-flutter build ios
-
-📚 Documentação
-Consulte a pasta /Documentação para:
-
-📖 Documentação detalhada do projeto
-🎨 Apresentação e banner
-📊 Análises e especificações
-🔄 Roadmap
- Estrutura base do aplicativo Flutter
- Interface de monitoramento
- Integração com C++ para processamento
- Integração com sensores cardíacos
- Testes em ambiente real
- Publicação em App Store e Google Play
- Sistema de histórico de dados
- Sincronização com backend
-🤖 Metodologia: Vibe Coding
-Este projeto aproveitou Vibe Coding com assistência de IA para:
-
-⚡ Acelerar o desenvolvimento
-🎯 Manter código bem estruturado
-🔍 Reduzir tarefas repetitivas
-💡 Focar em arquitetura e lógica de negócio
-📊 Garantir qualidade do código
-📝 Contribuições
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-🐛 Reportar bugs
-💡 Sugerir melhorias
-🔄 Enviar pull requests
-📝 Melhorar documentação
-📄 Licença
-[Adicione informação sobre a licença do projeto]
-
-👨‍💻 Autor
-Desenvolvido por gabrielkscruz-eng
-
-Desenvolvido com Vibe Coding - Assistência de IA 🤖
-
-Repositório: https://github.com/gabrielkscruz-eng/CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION
-
-Último update: 28 de março de 2026
-1. Clone o repositório:
 ```bash
-git clone https://github.com/gabrielkscruz-eng/CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION.git
-cd CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION
+flutter run
+```
+
+### Production Build
+
+**Android:**
+
+```bash
+flutter build apk
+```
+
+**iOS:**
+
+```bash
+flutter build ios
+```
+
+## 📚 Documentation
+
+Check the `/Documentação` folder for:
+
+- 📖 Detailed project documentation
+- 🎨 Presentation and banner
+- 📊 Analysis and specifications
+- 🔄 Roadmap
+
+## 🗺️ Roadmap
+
+- [x] Flutter app base structure
+- [x] Monitoring interface
+- [x] C++ integration for processing
+- [ ] Cardiac sensor integration
+- [ ] Real-world testing
+- [ ] App Store and Google Play release
+- [ ] Data history system
+- [ ] Backend synchronization
+
+## 🤖 Methodology: Vibe Coding
+
+This project leveraged Vibe Coding with AI assistance to:
+
+- ⚡ Accelerate development
+- 🎯 Maintain well-structured code
+- 🔍 Reduce repetitive tasks
+- 💡 Focus on architecture and business logic
+- 📊 Ensure code quality
+
+## 📝 Contributing
+
+Contributions are welcome! Feel free to:
+
+- 🐛 Report bugs
+- 💡 Suggest improvements
+- 🔄 Submit pull requests
+- 📝 Improve documentation
+
+## 📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## 👨‍💻 Author
+
+Developed by **gabrielkscruz-eng**
+
+---
+
+Developed with Vibe Coding - AI Assistance 🤖
+
+Repository: https://github.com/gabrielkscruz-eng/CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION
+
+Last update: March 28, 2026
